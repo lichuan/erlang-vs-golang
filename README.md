@@ -25,7 +25,19 @@ While Golang (as a static language) naturally delivers higher performance, we ad
 - `work1` and `work2` achieve roughly the same execution counts within the same timeframe
 - The comparison focuses specifically on scheduler behavior rather than raw language performance
 
+### Test Environment and Versions
+The tests were conducted using the following runtime versions:
+- Erlang/OTP: Version 27 [erts-15.0.1] [64-bit] [smp:16:16]
+- Golang: version go1.25.0 windows/amd64
 
+### Platform Hardware & OS Environment:
+- Device: LAPTOP-H670TST5
+- Processor: 13th Gen Intel(R) Core(TM) i5-1340P (1.90 GHz)
+- Memory: 16.0 GB RAM
+- OS: Windows 11 Home Chinese Edition (24H2)
+- OS Version: 26100.4946
+- Architecture: 64-bit operating system, x64-based processor
+<br><br>
 Start to run golang:
 ![golang start](./res/golang_start.gif)
 <br><br><br>
